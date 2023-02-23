@@ -10,5 +10,10 @@ const sayHello = function(input){
     //     return "Hello, Pat";
     // }
     // return "Hello, Jane"
-    return "Hello, "+input +"!";
+
+    if(input===true){
+    return "Hello, World!";
+    }else{
+        return "Hello, "+input +"!";
+    }
 }

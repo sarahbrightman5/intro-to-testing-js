@@ -29,9 +29,9 @@ describe('helloWorld', function() {
         });
         it("should return 'Hello, Pat'", function(){
             expect(sayHello("Pat")).toBe("Hello, Pat!");
-        })
+        });
         it("should return 'Hello world'", function(){
-            expect(sayHello("World")).toBe("Hello, World!");
-        })
+            expect(sayHello(true)).toBe("Hello, World!");
+        });
         });
 
